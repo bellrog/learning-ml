@@ -1,7 +1,7 @@
 > ### **Introduction**
+
 - Model entered 'ImageNet Large-Scale Visual Recognition Challenge' (ILSVRC-2010/2012)
 - Classified 1.2 million images into 1000 classes 
-
 
 > ### **Architecture**
 - 8 learned layers
@@ -21,7 +21,7 @@
     - used over saturating nonlinearity, _s.a_ :
         - ### $f(x) = (1 + e^{-x})^{-1}$
         - ### $f(x) = tanh(x)$
-    - due to faster training time  
+    - due to faster training time (25% faster)
     - Doesn't require input normalisation
 
 
@@ -41,8 +41,8 @@
     > ### **Overlapping Pooling**
     - Pooling layers in CNNs summarise the outputs of neighbouring groups of neurons in the same kernel map
     - Reducing the number of pixels _(s)_ between pooling units, which summarise the inputs of a _(z*z)_ neighbourhood, causes an overlap
-    
+
 > ### **Performance**
 - Achieved top-1 (37.5%) and top-5 (17.0%) error rates  
 - Response normalization reduces our top-1 and top-5 error rates by 1.4% and 1.2%
-
+- 
